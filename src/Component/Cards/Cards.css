@@ -1,0 +1,49 @@
+.card {
+  margin: 0.5rem;
+  box-shadow: 2px 6px 8px rgba(158, 158, 167, 0.18);
+  padding: 1rem;
+  justify-content: center;
+  border-radius: 5%;
+}
+.card1_img {
+  background-image: url("D:\New folder\oasis_projects\landing page\landing_page\src\Component\assests\card1.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+.card2_img {
+  background-image: url("D:\New folder\oasis_projects\landing page\landing_page\src\Component\assests\card2.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+.card3_img {
+  background-image: url("D:\New folder\oasis_projects\landing page\landing_page\src\Component\assests\card3.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+.card4_img {
+  background-image: url("D:\New folder\oasis_projects\landing page\landing_page\src\Component\assests\card4.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+.card5_img {
+  background-image: url("D:\New folder\oasis_projects\landing page\landing_page\src\Component\assests\card5.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+.card h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.btn {
+  margin: 20px;
+  padding: 10px 5px;
+  text-decoration: none;
+}

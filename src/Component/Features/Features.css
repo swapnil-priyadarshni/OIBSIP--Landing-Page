@@ -1,0 +1,36 @@
+.feature1_img {
+  background-image: url("D:\New folder\oasis_projects\landing page\landing_page\src\Component\assests\feature2.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.feature2_img {
+  background-image: url("D:\New folder\oasis_projects\landing page\landing_page\src\Component\assests\feature1.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.feature3_img {
+  background-image: url("D:\New folder\oasis_projects\landing page\landing_page\src\Component\assests\feature3.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.feature4_img {
+  background-image: url("D:\New folder\oasis_projects\landing page\landing_page\src\Component\assests\feature4.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.feature5_img {
+  background-image: url("D:\New folder\oasis_projects\landing page\landing_page\src\Component\assests\feature5.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  margin: 30px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 50px;
+}

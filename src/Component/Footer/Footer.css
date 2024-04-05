@@ -1,0 +1,23 @@
+.map {
+  background-image: url("D:\New folder\oasis_projects\landing page\landing_page\src\Component\assests\world.jpg");
+  background-size: cover;
+  min-height: 80vh;
+  position: relative;
+  margin-top: 100px;
+}
+
+.color-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  align-items: center;
+  z-index: 1;
+}
+.color-overlay h3 {
+  color: rgb(249, 243, 243);
+  text-shadow: 1.5px 1.5px 1.5px rgb(239, 233, 233);
+  font-weight: 700;
+  font-size: 80px;
+  text-align: center;
+}

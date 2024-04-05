@@ -1,0 +1,23 @@
+.backImg {
+  background-image: url("D:\New folder\oasis_projects\landing page\landing_page\src\Component\Image\bg-1.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  /* color: white;
+  text-shadow: 2px 2px 2px rgba(223, 207, 207, 0.5); */
+}
+
+.color-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(247, 244, 244, 0.914); */
+  align-items: center;
+  z-index: 1;
+}
+.color-overlay h1 {
+  color: black;
+  text-shadow: 2px 2px 2px rgb(244, 242, 242);
+  font-weight: 700;
+  font-size: 90px;
+}

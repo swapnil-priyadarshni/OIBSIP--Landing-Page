@@ -1,0 +1,77 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+  background: black;
+}
+.nav_brand {
+  text-transform: uppercase;
+}
+.nav_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3.5rem;
+}
+.nav_toggler div {
+  width: 3rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: darkgray;
+  transition: 0.3s ease-in;
+}
+
+.nav_toggler {
+  cursor: pointer;
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .nav_toggler {
+    display: block;
+    cursor: pointer;
+  }
+  .nav_menu {
+    position: fixed;
+    top: 7vh;
+    right: 0;
+    width: 50vh;
+    height: 93vh;
+    background: darkgray;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+  }
+}
+.nav_active {
+  transform: translateX(0%);
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}
